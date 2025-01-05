@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: 16px;
+    color: #fff;
+    font-family: sans-serif; 
+    background-color: #61122f;
+}
+
+.navbar {
+    background-color: #f6b319;
+}
+
+.navbar-brand img {
+    margin: 10px 15px 10px 0;
+}
+
+
+
