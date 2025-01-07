@@ -26,6 +26,9 @@ body {
     line-height: .75;
 
 }
+.navbar-brand span {
+    color: #951c49;
+}
 .navbar-brand {
     text-decoration: none;
 }
@@ -37,4 +40,37 @@ span {
 }
 .navbar {
     background-color: #f6b319 !important;
+}
+#navbarNav {   /* for ul*/ 
+    margin-right: 30px;
+    justify-content: end;
+    align-self: baseline;
+
+}
+.nav-link {
+    gap: 15px;
+    text-align: center;
+}
+svg, #phone a span, .nav-item a, .nav-link {
+    color: #951c49;
+    --bs-nav-link-color: #951c49;
+    --bs-navbar-active-color: #951c49;
+}
+.nav-item a:hover {
+    background-color: #e7e7e7;
+}
+#phone {
+    text-align: right;
+}
+#phone a {
+    text-decoration: none;
+    padding-bottom: 0;
+}
+#phone a span {
+    font-size: 1.8em;
+}
+#phone div {
+    padding-right: 8px;
+    margin-top: -6px;
+    color: #557c3e;
 }
