@@ -11,14 +11,9 @@ body {
     background-color: #61122f;
 }
 
-.navbar {
-    background-color: #f6b319;
-    height: 170px;
-}
-
 .navbar-brand img {
     float: left;
-    margin: 10px 15px 10px 0;
+    margin: 0 3% 0 1%;
 }
 .navbar-brand h1{
     text-transform: uppercase;
@@ -36,13 +31,10 @@ body {
 }
 span {
     color: #000;
-    text-align: center;
     text-transform: uppercase;
-    vertical-align: baseline;
+    vertical-align: middle;
     font-size: 0.7em;
-    position: relative;
-    top: -10px;
 }
-.container-fluid p img {
-    margin-top: 15px;
+.navbar {
+    background-color: #f6b319 !important;
 }
