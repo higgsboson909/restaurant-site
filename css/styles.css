@@ -13,12 +13,10 @@ body {
 
 .navbar-brand img {
     float: left;
-    margin: 0 3% 0 1%;
 }
 .navbar-brand h1{
     text-transform: uppercase;
     color: #557c3e;
-    padding: 15px 0 0px 0; 
     font-family: 'lora';
     font-weight: bold;
     font-size: 1.5rem;
@@ -76,4 +74,90 @@ svg, #phone a span, .nav-item a, .nav-link {
 }
 .navbar-toggler{
     border: 2px solid #611225;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 767px) { 
+    .navbar-brand h1 {
+        padding-top: 5px;
+        font-size: 2.5vw;
+    }
+    .navbar-brand {
+        margin: 0px;
+        padding: 0;
+    }
+    .navbar {
+        padding-bottom: 0;
+    }
+    .navbar-brand span {
+        margin-top: -50px;
+        text-align: start; 
+        vertical-align: middle;
+        font-size: 0.5em;
+    }
+    .navbar-brand img {
+        margin-top: 5px;
+        margin-right: 2px;
+        width: 3vw;
+        height: 3vw;
+
+    };
+    
+   #res-head{
+        padding-top: 5px;
+    }
+     .bg-img {
+        background: url(../images/restaurant-logo_small.png) no-repeat;
+        width: 055px;
+        height: 050px;
+        float: left;
+    }
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px){ 
+    .navbar-brand h1 {
+        padding: 15px 0 0px 0; 
+
+    } 
+    .bg-img {
+        background: url(../images/restaurant-logo_medium.png) no-repeat;
+        width: 100px;
+        margin-right: 5px;
+        height: 100px;
+        float: left;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .navbar-brand h1 {
+        padding: 15px 0 0px 0; 
+    } 
+    .bg-img {
+    float: left;
+    background: url(../images/restaurant-logo.png) no-repeat ;
+    width: 150px;
+    margin: 0 3% 0 1%;
+    height: 150px;
+}
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 480px) { 
+    .navbar-brand h1 {
+        font-size: 3vw;
+    } 
+    .navbar-brand img {
+        margin-top: 12px;
+        width: 2vw;
+        height: 2vw;
+    } 
+    .navbar-brand span {
+        font-size: 2vw;
+    }
+    .navbar {
+        padding-bottom: 3px;
+    }
 }
