@@ -79,6 +79,11 @@ svg, #phone a span, .nav-item a, .nav-link {
 .navbar-toggler{
     border: 2px solid #611225;
 }
+.hero-img {
+    border: 2px solid #3f0c3f;
+    border-radius: 10px;
+    box-shadow: 0 0 50px #3f0c3f;
+}
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (max-width: 767px) { 
