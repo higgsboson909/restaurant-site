@@ -83,12 +83,14 @@ svg, #phone a span, .nav-item a, .nav-link {
     border: 2px solid #3f0c3f;
     border-radius: 10px;
     box-shadow: 0 0 50px #3f0c3f;
+
 }
 
 #menu-tile, #special-tile, #map-tile {
     height: 250px;
     width: 100%;
     border: solid 2px #3f0c3f;
+    padding: 0;
 }
 #menu-tile:hover, #special-tile:hover, #map-tile:hover {
     box-shadow: 0 1px 5px 1px #cccccc;
