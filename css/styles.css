@@ -119,7 +119,12 @@ svg, #phone a span, .nav-item a, .nav-link {
     background-color: #000;
 }
 
-
+@media (min-width: 391px) and (max-width: 576px) {
+    #menu-tile, #special-tile {
+        width: 360px;
+        margin: 0 auto 15px;
+    }
+}
 /* // Small devices (landscape phones, 576px and up) */
 @media (max-width: 767px) { 
     .navbar-brand h1 {
@@ -157,6 +162,10 @@ svg, #phone a span, .nav-item a, .nav-link {
         float: left;
     }
 
+    #menu-tile, #special-tile {
+        margin-bottom: 15px;
+    }
+
  }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -189,6 +198,11 @@ svg, #phone a span, .nav-item a, .nav-link {
 }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    #menu-tile, #special-tile {
+        background-size: 100% 250px;
+    }
+}
 @media (max-width: 480px) { 
     .navbar-brand h1 {
         font-size: 3vw;
