@@ -87,14 +87,38 @@ svg, #phone a span, .nav-item a, .nav-link {
 }
 
 #menu-tile, #special-tile, #map-tile {
+    position: relative;
+    border-radius: 5px;
     height: 250px;
     width: 100%;
     border: solid 2px #3f0c3f;
-    padding: 0;
+    overflow: hidden;
+}
+    a {
+    text-decoration: none;
 }
 #menu-tile:hover, #special-tile:hover, #map-tile:hover {
     box-shadow: 0 1px 5px 1px #cccccc;
 }
+#menu-tile {
+    background: url(../images/menu-tile.jpg) no-repeat center;
+}
+
+#special-tile {
+    background: url(../images/specials-tile.jpg) no-repeat center;
+}
+
+#menu-tile span, #special-tile span, #map-tile span {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    font-size: 1.3em;
+    color: white;
+    text-align: center;
+    opacity: .6;
+    background-color: #000;
+}
+
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (max-width: 767px) { 
