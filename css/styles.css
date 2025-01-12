@@ -54,7 +54,7 @@ svg, #phone a span, .nav-item a, .nav-link {
     --bs-nav-link-color: #951c49;
     --bs-navbar-active-color: #951c49;
 }
-.nav-item a:hover {
+.nav-item a:hover, .nav-link.active {
     background-color: #e7e7e7;
 }
 .nav-link {
@@ -187,7 +187,61 @@ svg, #phone a span, .nav-item a, .nav-link {
 #menu-categories-title + div {
     margin-bottom: 50px;
 }
+/* for single category page */
+.menu-item-tile {
+    margin-bottom: 50px;
+}
 
+.menu-item-tile hr {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu-item-tile .menu-item-price {
+    font-size: 1.1rem;
+    text-align: right;
+    margin-top: -15px;
+    margin-right: -15px;
+}
+.menu-item-tile .menu-item-price span {
+    font-size: .6rem;
+}
+.menu-item-photo {
+    position: relative;
+    border: 2px solid #3f0c1f;
+    overflow: hidden;
+    padding: 0px;
+    margin-right: -15px;
+    margin-left: auto;
+    margin-bottom: 20px;
+    max-width: 250px;
+}
+.menu-item-photo div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80px;
+    background-color: #557c3e;
+    text-align: center;
+}
+h3.menu-item-title {
+    margin: 0 0 10px;
+}
+.menu-item-details {
+    font-style: italic;
+    font-size: .9rem;
+}
+
+@media (max-width: 575px) {
+    .menu-item-tile .row div{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .menu-item-tile .menu-item-price, .menu-item-description{
+        text-align: center;
+    }
+}
 /* // Small devices (landscape phones, 576px and up) */
 @media (max-width: 767px) { 
     .navbar-brand h1 {
